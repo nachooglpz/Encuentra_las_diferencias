@@ -34,6 +34,10 @@ Tener instaladas las siguientes biblotecas en python:
     
  8. Mostrar los resultados:
      Se concatenan y muestran las imágenes con las diferencias resaltadas.
+
+## Diagrama de Bloques
+![diagrama de bloques](https://github.com/user-attachments/assets/d2d4659c-18bd-4d65-a855-c65c4b24a648)
+
     
    
 ## Notas ✒️
