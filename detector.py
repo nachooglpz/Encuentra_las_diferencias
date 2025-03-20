@@ -52,8 +52,8 @@ contours = imutils.grab_contours(contours)
 for contour in contours:
     x, y, a, b = cv2.boundingRect(contour) # Calculate the points of the box
     # Draw the boxes in both images (just to know)
-    cv2.rectangle(img1, (x, y), (x+a, y+b), (0, 0, 255), 1)
-    cv2.rectangle(img2, (x, y), (x+a, y+b), (0, 0, 255), 1)
+    cv2.rectangle(img1, (x, y), (x+a, y+b), (0, 0, 255), 2)
+    cv2.rectangle(img2, (x, y), (x+a, y+b), (0, 0, 255), 2)
     
 # Concatenating the images to show the results
 result = np.hstack((img1, img2))
