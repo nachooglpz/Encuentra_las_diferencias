@@ -4,11 +4,11 @@ En este proyecto se utiliza OpenCV y NumPy para detectar diferencias entre dos i
 ## Requisitos
 Tener instaladas las siguientes biblotecas en python:
 
- cv2
+ - cv2
  
- numpy
+ - numpy
  
- imutils
+ - imutils
 
 ## Descripcion del codigo
  1. Carga de imagenes:
@@ -36,3 +36,6 @@ Tener instaladas las siguientes biblotecas en python:
      Se concatenan y muestran las imágenes con las diferencias resaltadas.
     
    
+## Notas 
+- Ambas imagenes deben tener el mismo tamaño para evitar errores en la comparación.
+
