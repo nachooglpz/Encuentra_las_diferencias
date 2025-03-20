@@ -56,8 +56,13 @@ for contour in contours:
     cv2.rectangle(img2, (x, y), (x+a, y+b), (0, 0, 255), 2)
     
 # Concatenating the images to show the results
+sobels = np.hstack((sobel_combined1, sobel_combined2))
 result = np.hstack((img1, img2))
 
+cv2.imshow('Sobel applied to both images', sobels)
+cv2.imshow('Difference', diff)
+cv2.imshow('Thresholded', thresholded)
+cv2.imshow('Dilated', dilated)
 cv2.imshow('Spot the Differences Solved:', result)
 cv2.waitKey()
 cv2.destroyAllWindows()
