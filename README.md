@@ -1,7 +1,7 @@
-# Detector de diferencias usando OpenCV
+# Detector de diferencias usando OpenCV 👀
 En este proyecto se utiliza OpenCV y NumPy para detectar diferencias entre dos imágenes. Se basa en la técnica de deteccion de bordes Sobel y contornos para resaltar las diferencias entre dos imagenes similares. 
 
-## Requisitos
+## Requisitos 🔨
 Tener instaladas las siguientes biblotecas en python:
 
  - cv2
@@ -10,7 +10,7 @@ Tener instaladas las siguientes biblotecas en python:
  
  - imutils
 
-## Descripcion del codigo
+## Descripcion del codigo 🖥️
  1. Carga de imagenes:
      Se leen dos imagenes.
     
@@ -36,7 +36,7 @@ Tener instaladas las siguientes biblotecas en python:
      Se concatenan y muestran las imágenes con las diferencias resaltadas.
     
    
-## Notas 
+## Notas ✒️
 - Ambas imagenes deben tener el mismo tamaño para evitar errores en la comparación.
 - En caso de que las imágenes sean distintas, el programa detectará la imagen completa como una sola diferencia.
 
